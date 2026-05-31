@@ -1,0 +1,27 @@
+
+code->bytecode -> python virtual machine
+
+1. compile to byte code(lpw level& platform independent)
+
+byte code run faster
+.pyc ->compiled python(frozen binaries)
+
+--pycache--
+Source chang & python version
+
+hello.cpython-3.13.pyc
+->work only for import files
+-> not for top level files
+
+
+  ->python virtual machine
+  ->code loop to iterate byte code
+  ->Run time Engine
+
+  Byte code is not machine code
+
+  ->python specific interpretation
+  ->cpython(standard implementation),jython,Iron python,stackless.PyPy
+               
+              
+              
